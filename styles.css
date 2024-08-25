@@ -1,0 +1,24 @@
+body{
+    margin: 20px; /*This property will be inherited by all sub classes of the body*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*This is the verdana font stack, if the client doesnt have verdana it will resort to the respective other options mentioned*/
+}
+.profile-pic{
+    width: 175px;
+}
+
+.Card{
+    padding: 20px;
+    display: flex;
+    width: 400px;
+    margin: 0px auto;
+    justify-content: space-around;   
+    text-align: center;
+    color: #2b2839;
+    background: dodgerblue;
+    border-bottom: purple 6px solid;
+    
+}
+
+.blue-border{
+    border: dotted blue 1px;
+}
